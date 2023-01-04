@@ -258,7 +258,8 @@ const styles = StyleSheet.create({
 ```js
 const mute: boolean = true;
 
-// hms instance acquired by build methodhmsInstance?.changeTrackState(audioTrack as HMSTrack, mute);
+// hms instance acquired by build method
+//hmsInstance?.changeTrackState(audioTrack as HMSTrack, mute);
 hmsInstance?.changeTrackState(videoTrack as HMSTrack, mute);
 
 const unmute: boolean = false;
